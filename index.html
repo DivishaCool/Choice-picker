@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <title>Pick a choice!</title>
+  </head>
+  <body>
+    <div class="container">
+      <h3>Enter all of the choices (seprate each choice by a comma). <br> Press enter to pick a random choice.</h3>
+      <textarea placeholder="Enter all the items here" id="textarea"></textarea>
+
+      <div id="tags"></div>
+      <br>
+      <br>
+      <h3>Enter number of times you want for it to roll before picking a choice </h3>
+      <input placeholder="Enter here" id="input" type="number">
+      <div id="popup">
+        <h3 id="error">Please enter a valid value which is greater than 20 and less then 500 </h3>
+      </div>
+    </div>
+
+    
+
+    <script src="main.js"></script>
+
+
+  </body>
+
+  <style>
+    #popup{
+      background-color: white;
+      border-radius: 8px;
+      visibility: hidden;
+    }
+    #error{
+      color:red;
+    }
+  </style>
+</html>

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Indie Flower', cursive;
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20190827/pngtree-80-style-background-with-geometric-vector-shapes-image_306704.jpg");
+  background-color: #2b88f0;
+  background-repeat: no-repeat;
+  background-size:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+h3 {
+  font-size: 19px;
+  color: #fff;
+  margin: 10px 0 20px;
+  text-align: center;
+}
+
+.container {
+  width: 500px;
+}
+
+textarea {
+  border: none;
+  display: block;
+  width: 100%;
+  height: 100px;
+  font-family: inherit;
+  padding: 10px;
+  margin: 0 0 20px;
+  font-size: 16px;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.tag {
+  background-color:#2b88f0;
+  color: #fff;
+  border-radius: 50px;
+  padding: 10px 20px;
+  margin: 0 5px 10px 0;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.tag.highlight {
+  background-color:palevioletred;
+}
+
+/*Input*/
+
+input{
+  background-color: white;
+  border-color: darkgrey;
+  border-width:3px;
+  border-radius: 5px;
+  border-style:solid;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  -ms-transition: -ms-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+  outline:none;
+  height:60px;
+  width:120px;
+  margin-left: 180px;
+  
+}
+
+input:hover{
+
+  transform:rotate(360deg);
+
+}
+
+input:active{
+  border-top:none;
+  transform: rotate(360deg);
+
+}
